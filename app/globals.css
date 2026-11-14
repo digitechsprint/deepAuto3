@@ -231,3 +231,8 @@ h2 { font-size: clamp(28px, 3.2vw, 40px); font-weight: 700; color: var(--navy); 
   .hero-dots { bottom: 70px; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } .reveal-ready [data-reveal] { opacity: 1; transform: none; } }
+
+/* Official DAEPL logo */
+.logo-img { display: block; height: 64px; width: auto; }
+.footer .logo-img { height: 88px; }
+@media (max-width: 680px) { .logo-img { height: 54px; } }
